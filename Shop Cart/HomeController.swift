@@ -22,11 +22,21 @@ class HomeController: UIViewController {
         navigationController?.isNavigationBarHidden = false
         navigationItem.hidesBackButton = true
         navigationItem.title = "Shopcart";
-        self.createSlider()
+        let menuIcon = UIBarButtonItem(image: UIImage(named: "menu-icon"), style: .plain, target: self, action: #selector(showMenu)) // action:#selector(Class.MethodName) for swift 3
+        self.navigationItem.leftBarButtonItem  = menuIcon
+        
+        let logout = UIBarButtonItem(image: UIImage(named: "menu-icon"), style: .plain, target: self, action: #selector(logoutUser)) // action:#selector(Class.MethodName) for swift 3
+        self.navigationItem.rightBarButtonItem  = logout
+
+//        self.createSlider()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         
+    }
+    
+    func showMenu() {
+        print("Click")
     }
 
     override func didReceiveMemoryWarning() {
@@ -78,10 +88,9 @@ class HomeController: UIViewController {
         }
     }
     
-    @IBAction func logotUser(_ sender: Any) {
+    
+    func logoutUser() {
         UserDefaults.standard.removeObject(forKey: "sessionToken")
-//        UserDefaults.standard.removeObject(forKey: "categoryList")
-//        UserDefaults.standard.removeObject(forKey: "productList")
         let lc = LoginController(nibName: "LoginController", bundle: nil)
         self.navigationController?.pushViewController(lc, animated: true)
     }
