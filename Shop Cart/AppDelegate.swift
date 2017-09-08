@@ -36,10 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //If Login redirect on home page.
         if let sessionToken = UserDefaults.standard.object(forKey: "sessionToken") as? String {
             if !sessionToken.isEmpty {
-                self.window?.rootViewController = UINavigationController(rootViewController: HomeController())
+                self.window?.rootViewController = UINavigationController(rootViewController: TabController())
             }
         } else {
-            self.window?.rootViewController = UINavigationController(rootViewController: WelcomeController())
+            self.window?.rootViewController = UINavigationController(rootViewController: TabController())
         }
         // Override point for customization after application launch.
         return true

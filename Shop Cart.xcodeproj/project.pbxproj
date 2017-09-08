@@ -28,6 +28,9 @@
 		11D6F3A41F606CAC004D4304 /* SignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F3A21F606CAC004D4304 /* SignupController.xib */; };
 		11D6F3A71F60729F004D4304 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F3A51F60729F004D4304 /* HomeController.swift */; };
 		11D6F3A81F60729F004D4304 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F3A61F60729F004D4304 /* HomeController.xib */; };
+		4DFFC84A1F62A61E00158FDA /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC8491F62A61E00158FDA /* Slider.swift */; };
+		4DFFC84C1F62A70500158FDA /* TabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFC84B1F62A70500158FDA /* TabController.xib */; };
+		4DFFC84E1F62A7AE00158FDA /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC84D1F62A7AE00158FDA /* TabController.swift */; };
 		B89142C45A127157F33F30B0 /* Pods_Shop_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C29ADE0C025B0ABC58D3D1 /* Pods_Shop_Cart.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		11D6F3A51F60729F004D4304 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		11D6F3A61F60729F004D4304 /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
 		2F891FB9187D6F9CDE66DF7C /* Pods-Shop Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shop Cart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shop Cart/Pods-Shop Cart.release.xcconfig"; sourceTree = "<group>"; };
+		4DFFC8491F62A61E00158FDA /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		4DFFC84B1F62A70500158FDA /* TabController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabController.xib; sourceTree = "<group>"; };
+		4DFFC84D1F62A7AE00158FDA /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		78C29ADE0C025B0ABC58D3D1 /* Pods_Shop_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shop_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C99A173CF56AB5208DCD9C /* Pods-Shop Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shop Cart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shop Cart/Pods-Shop Cart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +122,8 @@
 				11D6F3951F605E06004D4304 /* CartController.swift */,
 				11D6F3991F605E16004D4304 /* CheckoutController.swift */,
 				11D6F3A51F60729F004D4304 /* HomeController.swift */,
+				4DFFC8491F62A61E00158FDA /* Slider.swift */,
+				4DFFC84D1F62A7AE00158FDA /* TabController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				11D6F3961F605E06004D4304 /* CartController.xib */,
 				11D6F39A1F605E16004D4304 /* CheckoutController.xib */,
 				11D6F38E1F605DC2004D4304 /* ProductController.xib */,
+				4DFFC84B1F62A70500158FDA /* TabController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -221,6 +230,7 @@
 				11D6F3A01F605FB9004D4304 /* WelcomeController.xib in Resources */,
 				11D6F3941F605DEE004D4304 /* ProductDetailsController.xib in Resources */,
 				11D6F3981F605E06004D4304 /* CartController.xib in Resources */,
+				4DFFC84C1F62A70500158FDA /* TabController.xib in Resources */,
 				1147CEE71F5DBED200D95DFA /* Assets.xcassets in Resources */,
 				11D6F3901F605DC2004D4304 /* ProductController.xib in Resources */,
 				11D6F3A81F60729F004D4304 /* HomeController.xib in Resources */,
@@ -283,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFFC84E1F62A7AE00158FDA /* TabController.swift in Sources */,
 				1147CEE51F5DBED200D95DFA /* Shop_Cart.xcdatamodeld in Sources */,
 				11D6F3861F605AEC004D4304 /* Extension.swift in Sources */,
 				11D6F3A71F60729F004D4304 /* HomeController.swift in Sources */,
@@ -293,6 +304,7 @@
 				11D6F3971F605E06004D4304 /* CartController.swift in Sources */,
 				11D6F39B1F605E16004D4304 /* CheckoutController.swift in Sources */,
 				11D6F3931F605DEE004D4304 /* ProductDetailsController.swift in Sources */,
+				4DFFC84A1F62A61E00158FDA /* Slider.swift in Sources */,
 				11D6F38F1F605DC2004D4304 /* ProductController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
