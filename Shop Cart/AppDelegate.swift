@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 
+@available(iOS 10.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -39,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 self.window?.rootViewController = UINavigationController(rootViewController: TabController())
             }
         } else {
-            self.window?.rootViewController = UINavigationController(rootViewController: TabController())
+            self.window?.rootViewController = UINavigationController(rootViewController: WelcomeController())
         }
         // Override point for customization after application launch.
         return true

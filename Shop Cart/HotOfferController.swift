@@ -1,20 +1,20 @@
 //
-//  CartController.swift
+//  HotOfferController.swift
 //  Shop Cart
 //
-//  Created by Kewal Kanojia on 06/09/17.
+//  Created by Kapil Chauhan on 08/09/17.
 //  Copyright © 2017 Kewal Kanojia. All rights reserved.
 //
 
 import UIKit
 
-class CartController: UIViewController {
+class HotOfferController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        navigationItem.title = "Shopping bag";
+        navigationItem.title = "Hot Offers";
     }
 
     override func didReceiveMemoryWarning() {

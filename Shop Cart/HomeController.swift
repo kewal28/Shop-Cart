@@ -22,6 +22,7 @@ class HomeController: UIViewController {
         navigationController?.isNavigationBarHidden = false
         navigationItem.hidesBackButton = true
         navigationItem.title = "Shopcart";
+        
         let menuIcon = UIBarButtonItem(image: UIImage(named: "menu-icon"), style: .plain, target: self, action: #selector(showMenu)) // action:#selector(Class.MethodName) for swift 3
         self.navigationItem.leftBarButtonItem  = menuIcon
         

@@ -28,6 +28,8 @@
 		11D6F3A41F606CAC004D4304 /* SignupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F3A21F606CAC004D4304 /* SignupController.xib */; };
 		11D6F3A71F60729F004D4304 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6F3A51F60729F004D4304 /* HomeController.swift */; };
 		11D6F3A81F60729F004D4304 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D6F3A61F60729F004D4304 /* HomeController.xib */; };
+		35FFD6551F62B2A300D8CDEA /* HotOfferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FFD6531F62B2A300D8CDEA /* HotOfferController.swift */; };
+		35FFD6561F62B2A300D8CDEA /* HotOfferController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35FFD6541F62B2A300D8CDEA /* HotOfferController.xib */; };
 		4DFFC84A1F62A61E00158FDA /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC8491F62A61E00158FDA /* Slider.swift */; };
 		4DFFC84C1F62A70500158FDA /* TabController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DFFC84B1F62A70500158FDA /* TabController.xib */; };
 		4DFFC84E1F62A7AE00158FDA /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFC84D1F62A7AE00158FDA /* TabController.swift */; };
@@ -59,6 +61,8 @@
 		11D6F3A51F60729F004D4304 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		11D6F3A61F60729F004D4304 /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
 		2F891FB9187D6F9CDE66DF7C /* Pods-Shop Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shop Cart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shop Cart/Pods-Shop Cart.release.xcconfig"; sourceTree = "<group>"; };
+		35FFD6531F62B2A300D8CDEA /* HotOfferController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotOfferController.swift; sourceTree = "<group>"; };
+		35FFD6541F62B2A300D8CDEA /* HotOfferController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotOfferController.xib; sourceTree = "<group>"; };
 		4DFFC8491F62A61E00158FDA /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		4DFFC84B1F62A70500158FDA /* TabController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabController.xib; sourceTree = "<group>"; };
 		4DFFC84D1F62A7AE00158FDA /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 				11D6F3A51F60729F004D4304 /* HomeController.swift */,
 				4DFFC8491F62A61E00158FDA /* Slider.swift */,
 				4DFFC84D1F62A7AE00158FDA /* TabController.swift */,
+				35FFD6531F62B2A300D8CDEA /* HotOfferController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				11D6F3A21F606CAC004D4304 /* SignupController.xib */,
 				11D6F37C1F604CCB004D4304 /* LoginController.xib */,
 				11D6F3A61F60729F004D4304 /* HomeController.xib */,
+				35FFD6541F62B2A300D8CDEA /* HotOfferController.xib */,
 				11D6F3921F605DEE004D4304 /* ProductDetailsController.xib */,
 				11D6F3961F605E06004D4304 /* CartController.xib */,
 				11D6F39A1F605E16004D4304 /* CheckoutController.xib */,
@@ -196,7 +202,7 @@
 				TargetAttributes = {
 					1147CED81F5DBED200D95DFA = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MTUUM8K838;
+						DevelopmentTeam = DKXKPR5EP5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -232,6 +238,7 @@
 				11D6F3981F605E06004D4304 /* CartController.xib in Resources */,
 				4DFFC84C1F62A70500158FDA /* TabController.xib in Resources */,
 				1147CEE71F5DBED200D95DFA /* Assets.xcassets in Resources */,
+				35FFD6561F62B2A300D8CDEA /* HotOfferController.xib in Resources */,
 				11D6F3901F605DC2004D4304 /* ProductController.xib in Resources */,
 				11D6F3A81F60729F004D4304 /* HomeController.xib in Resources */,
 				11D6F37E1F604CCB004D4304 /* LoginController.xib in Resources */,
@@ -299,6 +306,7 @@
 				11D6F3A71F60729F004D4304 /* HomeController.swift in Sources */,
 				1147CEDD1F5DBED200D95DFA /* AppDelegate.swift in Sources */,
 				11D6F3A31F606CAC004D4304 /* SignupController.swift in Sources */,
+				35FFD6551F62B2A300D8CDEA /* HotOfferController.swift in Sources */,
 				11D6F39F1F605FB9004D4304 /* WelcomeController.swift in Sources */,
 				11D6F37D1F604CCB004D4304 /* LoginController.swift in Sources */,
 				11D6F3971F605E06004D4304 /* CartController.swift in Sources */,
@@ -410,8 +418,9 @@
 			baseConfigurationReference = F6C99A173CF56AB5208DCD9C /* Pods-Shop Cart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MTUUM8K838;
+				DEVELOPMENT_TEAM = DKXKPR5EP5;
 				INFOPLIST_FILE = "Shop Cart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coderpoint.Shop-Cart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,8 +433,9 @@
 			baseConfigurationReference = 2F891FB9187D6F9CDE66DF7C /* Pods-Shop Cart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MTUUM8K838;
+				DEVELOPMENT_TEAM = DKXKPR5EP5;
 				INFOPLIST_FILE = "Shop Cart/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "coderpoint.Shop-Cart";
 				PRODUCT_NAME = "$(TARGET_NAME)";

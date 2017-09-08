@@ -13,8 +13,6 @@ class SignupController: UIViewController {
     
     var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView();
     
-//    private let ContactSegue = "showHome"
-    
     @IBOutlet weak var errorMsg: UILabel!
     @IBOutlet weak var nameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
@@ -29,8 +27,8 @@ class SignupController: UIViewController {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = true
         navigationItem.hidesBackButton = true
-        // Do any additional setup after loading the view.
         
+        // Do any additional setup after loading the view.
 //        let _ = self.checkLogin(contactSegue: self.ContactSegue)
     }
 

@@ -13,8 +13,6 @@ class LoginController: UIViewController {
     
     var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView();
     
-    private let ContactSegue = "showHome"
-    
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var emailError: UIImageView!

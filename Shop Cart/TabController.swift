@@ -35,16 +35,30 @@ class TabController: UITabBarController {
 
     func setUpViewControllers() {
         
-        
-        let loginVC:LoginController = LoginController()
         let homeVC:HomeController = HomeController()
-        let welcomeVC:WelcomeController = WelcomeController()
+        let hotOfferVC:HotOfferController = HotOfferController()
+        let cartVC:CartController = CartController()
+        let searchVC:CartController = CartController()
+        let profileVC:CartController = CartController()
+        
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: nil, tag: 1)
+        homeVC.navigationItem.title = "Shopcart";
+        hotOfferVC.tabBarItem = UITabBarItem(title: "Hot offers", image: nil, tag: 1)
+        hotOfferVC.navigationItem.title = "Hot Offers";
+        cartVC.tabBarItem = UITabBarItem(title: "My Cart", image: nil, tag: 1)
+        cartVC.navigationItem.title = "Shopping Cart";
+        searchVC.tabBarItem = UITabBarItem(title: "Search", image: nil, tag: 1)
+        searchVC.navigationItem.title = "Search";
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: nil, tag: 1)
+        profileVC.navigationItem.title = "Profile";
         
         var arrayControllers:Array<UIViewController>;
         arrayControllers = Array<UIViewController>();
-        arrayControllers.insert(loginVC, at: 0)
+        arrayControllers.insert(profileVC, at: 0)
+        arrayControllers.insert(searchVC, at: 0)
+        arrayControllers.insert(cartVC, at: 0)
+        arrayControllers.insert(hotOfferVC, at: 0)
         arrayControllers.insert(homeVC, at: 0)
-        arrayControllers.insert(welcomeVC, at: 0)
         
         self.setViewControllers(arrayControllers, animated: true)
         
